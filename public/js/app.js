@@ -1,4 +1,4 @@
-console.log('client sidejs')
+// console.log('client sidejs')
 
 // fetch('http://puzzle.mead.io/puzzle').then((response ) => {
 //     response.json().then((data)=>{
@@ -11,6 +11,8 @@ const search=document.querySelector('input')
 const message1=document.querySelector('#msg1')
 //message1.textContent='from js'
 const message2=document.querySelector('#msg2')
+
+
 weatherform.addEventListener('submit',(e)=>{
     e.preventDefault()
     const location=search.value
