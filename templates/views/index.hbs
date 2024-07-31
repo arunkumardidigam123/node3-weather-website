@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="icon" type="PNG File" href="E:\favicon_io\apple-touch-icon.png">
+    <title>weather</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+
+<body>
+    <div class="main-content">
+        {{>headers}}
+        <p>use this site to get ur weather</p>
+         <form>
+        <input placeholder="location">
+        <button>search</button>
+    </form>
+    <P id="msg1">
+
+    </P>
+    <P id="msg2"></P>
+    </div>
+   
+   
+    {{!--
+    <h1>from a statis cfile</h1> --}}
+    {{!-- <h1>created by{{name}}</h1> --}}
+    {{>footers}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
